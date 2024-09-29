@@ -1,0 +1,14 @@
+body {
+  max-width: 1300px;
+  width: 80%;
+  height: 100%;
+  margin: 50px  auto;
+  font-family: 'Mulish';
+}
+
+@import './reset';
+@import './nav';
+@import './footer';
+@import './home';
+@import './projects';
+@import './contact';
