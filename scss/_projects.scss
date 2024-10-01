@@ -53,8 +53,6 @@
     }
   }
 
-  // I tried doing this using last and first child but i couldn't get it to target correctly so i did it like this instead.
-  // I wanted to do it &-item:first-child { style } But it would target both of the P tags and not just the first one :/
 
   .grey__item {
     font-style: normal;
@@ -96,6 +94,6 @@
   .projects__img__container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 132px;
+    margin-bottom: 100px;
   }
 }
