@@ -53,6 +53,11 @@ footer {
   margin-bottom: 48px;
   margin-top: 108px;
 }
+footer .footer__logo a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+}
 footer .footer__links {
   display: flex;
   justify-content: space-between;
@@ -83,7 +88,7 @@ footer .footer__links-socials img {
 
 .home__header__content {
   margin-top: 96px;
-  margin-bottom: 144px;
+  margin-bottom: 95px;
 }
 .home__header__content h2 {
   font-style: normal;
@@ -104,6 +109,8 @@ footer .footer__links-socials img {
   line-height: 60px;
   color: #111111;
   max-width: 640px;
+  width: 100%;
+  min-height: 100%;
 }
 .home__header__content-flex-purple {
   color: #4a4ff2;
@@ -135,7 +142,7 @@ footer .footer__links-socials img {
   display: grid;
   grid-template: repeat(32, 1fr)/repeat(9, 1fr);
   max-height: 1990px;
-  width: 100%;
+  width: 100vw;
   gap: 10px;
   margin-bottom: 91px;
 }
@@ -261,7 +268,7 @@ footer .footer__links-socials img {
   grid-template: repeat(4, 100px)/repeat(7, 150px);
   padding-top: 48px;
   border-bottom: 2px solid #d8d8d8;
-  margin-bottom: 114px;
+  margin-bottom: 100px;
 }
 .home__design__grid h2 {
   font-style: normal;
@@ -412,14 +419,14 @@ footer .footer__links-socials img {
 .projects__main__content .projects__img__container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 132px;
+  margin-bottom: 100px;
 }
 
 .contact__header__content {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 114px;
+  margin-bottom: 100px;
 }
 .contact__header__content-text {
   max-width: 475px;
@@ -482,7 +489,7 @@ footer .footer__links-socials img {
 }
 
 .contact__main__content {
-  margin-bottom: 110px;
+  margin-bottom: 99px;
 }
 .contact__main__content img {
   width: 100%;
